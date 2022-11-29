@@ -1,0 +1,495 @@
+@media (min-width: 320px) and (max-width: 991px){
+    header .welcome {
+        clip-path: none;
+        
+    }
+    header .container{
+        max-width: 100%;
+    }
+    nav #navBar ul li a {
+        text-align: center;
+    }
+   
+   
+     #services .heading h3{
+        font-size: 28px;
+        margin-bottom: 10px;
+     }
+     #services .heading p{
+        font-size: 16px;
+        padding: 0 ;
+    }
+    #portfolio .heading h3 {
+        font-size: 28px;
+        
+    }
+    #portfolio .heading p {
+        padding: 1px 7%;
+    }
+
+    #blog .heading p {
+        
+        padding: 0px;
+    }
+  
+    .textimonialText p {
+        font-size: 11px;
+        padding: 0px;
+    }
+    #testimonial .heading p {
+        padding: 0px;
+    }
+    #Pagination .listIcon{
+        width: 100%;
+        text-align: center;
+
+    }
+    #Pagination .dropdown{
+        width: 100%;
+        text-align: center;
+        margin:20px 0 ;
+    }
+ 
+    
+}
+@media (max-width:767px){
+    #Pagination .toggleBtn{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    #about .aboutImage img {
+        position: absolute;
+        right: auto;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    #about .aboutText {
+        padding-left: 50px;
+    }
+  
+    .bannerCnt p {
+        padding: 30px 50px;
+    }
+    .mainBtn {
+        padding: 11px 5px;
+    }
+    #aboutUs .aboutUsImage img {
+        position: absolute;
+        right: auto;
+        top: -13px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    #ourMission .ourMissionImage img {
+        position: absolute;
+        right: auto;
+        top: -15px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .ourTeamText {
+        clip-path: polygon(0 30%, 100% 12%, 100% 100%, 0 100%);
+    }
+    #ourTeam .ourTeamSlider .slick-center .ourTeamText {
+        clip-path: polygon(0 28%, 100% 16%, 100% 100%, 0% 100%);
+    }
+    .visitSideText p {
+        font-size: 18px;
+        
+    }
+    .visitSideText ul li {
+        font-size: 14px; 
+        margin-top: 150px;
+    }
+    .tags ul li a {
+        padding: 0 40px;
+    }
+    .singUpOverlay input {
+        margin: 11px 37px;
+    }
+    .singUpOverlay #message {
+        margin: 10px 38px;
+        width: 224px;
+    }
+    .singUpOverlay a {
+        margin: 30px 0 0 41px;
+        width: 66%;
+        
+    }
+    #blogDetails .blogListContent .blogListCnt ul li {
+        margin: 10px 34px 20px 5px;
+    }
+    
+
+
+}
+@media (min-width:576px) and (max-width:767px){
+    /* blog starts */
+    #blog .blogSlide .blogText ul li {
+        margin: 16px 11px 17px -5px;
+        font-size: 8px;
+    }
+    #blog .blogSlide .blogText p {
+        text-align: justify;
+        font-size: 11px;
+    }
+    #blog .blogSlide .blogText h2{
+      font-size: 11px;
+    }
+    #blog .blogSlide.slick-center  .blogText {
+        padding: 70px 10px 30px 18px;
+    }
+    #blog .blogSlide .blogText .btn{
+        padding: 11px 15px;
+        font-size: 11px;
+    }
+    #blog .blogSlide .blogText ul li span {
+        font-size: 6px;
+    } 
+   
+    .bannerCnt p {
+        padding: 10px 95px;
+    }
+    #banner .bannerCnt .mainBtn {
+        padding: 17px 14px;
+        font-size: 16px;
+    }
+    
+   /* blog ends */
+   /* footer starts */
+   footer .contact ul li span {
+    font-size: 13px;
+    
+    }
+    .newsText h5 {
+        font-size: 10px;
+        
+    }
+    .newsText p {
+        font-size: 10px;
+       
+    }
+    .newsText ul li {
+        margin: 10px 0px 20px -4px;
+        font-size: 8px;
+    }
+    /* footer ends */
+    .ourTeamText {
+        clip-path: polygon(0 30%, 100% 9%, 100% 100%, 0 100%);
+    }
+    #ourTeam .ourTeamSlider .slick-center .ourTeamText {
+        clip-path: polygon(0 27%, 100% 13%, 100% 100%, 0% 100%);
+    }
+    .visitSideText p {
+        font-size: 18px;  
+    }
+    .visitSideText ul li {
+        font-size: 13px;  
+        margin-top: 126px;
+    }
+    .blogListContent .blogListCnt ul li {
+        font-size: 8px;  
+    }
+    .tags ul li a {
+        padding: 0 20px;  
+    }
+    .comment .commentText h5 {
+        font-size: 11px;
+        margin-top: 2px;
+    }
+    .comment .commentText span p {
+        margin-top: -14px;
+        font-size: 11px;
+        
+    }
+    .comment .commentText p {
+        margin: 0;
+        font-size: 11px;
+    }
+    .comment .commentText p span {
+        font-size: 9px;  
+    }
+    #contact .contactBox p {
+        font-size: 9px;
+        
+    }
+    .singUpOverlay {
+        right: 135px;
+        
+    }
+    .singUpOverlay input {
+        margin: 12px 20px;
+    }
+    .singUpOverlay #message {
+        width: 226px;
+    }
+    #blog .blogSlide .blogText a {
+        margin-top: 4px;
+        padding: 10px;
+        font-size: 10px;
+     }
+     .replayBox #inputOne {
+        display: inline-block;
+        margin-left: 0;
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px){
+    
+     .mainBtn{
+        padding: 12px 12px;
+        font-size: 12px;
+     }
+  
+    .heading h3 {
+        font-size: 28px; 
+    }
+    #portfolio .heading p {
+        padding: 1px 7%;
+    }
+    
+   
+    #about .aboutText {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .newsText h5 {
+        font-size: 11px; 
+    }
+    .newsText p {
+        font-size: 10px;
+       
+    }
+    .newsText ul li {
+        margin: 10px 0px 20px 5px;
+                
+    }
+    .bannerCnt p {
+        padding: 20px 0px;
+    }
+    .blogListContent .blogListCnt {
+        transform: translateY(0%);
+        clip-path: none;
+      
+        padding: 22px 30px 10px 30px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .blogListContent .blogListCnt h5 {
+        font-size: 12px;
+        
+    }
+    .blogListContent .blogListCnt ul li {
+        margin: 4px -4px 14px 16px;
+        font-size: 9px;
+        
+    }
+    .blogListContent .blogListCnt p {
+        font-size: 10px;
+        
+    }
+    .blogListContent .blogListCnt ul li:first-child {
+        padding-right: 0%;
+    }
+    .aboutUsText {
+        padding: 0 26px;
+    }
+    .ourMissionText {
+        padding: 0 26px;
+    }
+  
+    .visitSideText p {
+        font-size: 11px;   
+    }
+    .visitSideText ul li {
+        margin-top: 40px;
+    }
+    .comment .commentText h5 {
+        font-size: 9px;
+        margin-top: 0;
+    }
+    .comment .commentText span p {
+        margin-top: -11px;
+        font-size: 9px;
+    }
+    .comment .commentText p {
+        margin: 3px 0;
+        font-size: 8px;
+        
+    }
+    .comment .commentText p span {
+        font-size: 8px;
+    }
+    .replayBox #inputOne {
+        display: inline-block;
+        margin-left: 0;
+        margin: 10px 0;
+    }
+    #contact .contactBox {
+        border-right: none;
+        margin: 10px;
+    }
+    .singUpOverlay {
+        width: 100%;
+        right: 0;
+        margin: 32px 0;
+        
+    }
+    .singUpOverlay input {
+        margin: 16px 21px;
+    }
+    .singUpOverlay #message {
+        margin: 0 22px;
+        width: 226px;
+    }
+    .singUpOverlay a {
+       
+        width: 80%;
+        
+    }
+    #singUp p {
+        color: #555;
+        margin: 0 ;
+    }
+    #linkPage h2 {
+       
+        font-size: 29px;
+    }
+    #blogDetails .blogListContent .blogListCnt ul li {
+        margin: 10px 22px 20px 5px;
+    }
+   
+   
+}
+
+@media (min-width:992px) {
+    nav.myNav{
+        height: 123px;
+    }
+    nav.myNav .container{
+        position: relative;
+    }
+    nav #navBar ul{
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.3s;
+    }
+    nav .myLogo{
+        position:absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.5s;
+    }
+    nav #navBar ul.menuActive{
+        opacity: 1;
+        visibility: visible;
+    }
+    nav .myLogo.activeLogo{
+        left: 0%;
+        transform: translateX(0%);
+    }
+    .banner_cnt{
+        padding: 200px 20px;
+    }
+    footer .about p {
+        font-size: 12px;
+    }
+
+    footer .contact ul li {
+        padding: 0 21px 27px 0;
+    }
+    footer .contact ul li span {
+        font-size: 11px;
+        
+    }
+    footer .links ul li a {
+        font-size: 12px;
+        
+    }
+    .newsText h5 {
+        font-size: 12px;
+    }
+    .newsText p {
+        font-size: 12px;
+       
+    }
+    .newsText ul li {
+        margin: 10px 1px 20px 4px;
+        
+    }
+    .blogListContent .blogListCnt ul li:first-child {
+        padding-right: 35%;
+    }
+    .visitSideText ul li {
+        margin-top: 31px;
+    }
+
+}
+@media (min-width:992px) and (max-width:1199px){
+    #about .aboutText {
+        padding-left: 180px;
+        padding-right: 13px;
+    }
+    /* blog starts */
+    #blog .blogSlide .blogText ul li {
+        margin: 12px 6px 17px 2px;
+        font-size: 11px;
+    }
+    #blog .blogSlide .blogText p {
+        text-align: justify;
+    }
+    #blog .blogSlide .blogText h2{
+      font-size: 15px;
+    }
+    #blog .blogSlide.slick-center  .blogText {
+        padding: 70px 10px 30px 18px;
+    }
+    .bannerCnt p {
+        padding: 30px 70px;
+    }
+
+   /* blog ends */
+   .singUpOverlay input {
+    margin: 31px 0px;
+    }
+   .singUpOverlay #message {
+    margin: -3px 4px;
+    width: 453px;
+    }
+    .singUpOverlay a {
+        margin: 30px 0 0 0px;
+        width: 100%;
+        
+    }
+    .aboutUsText  p {
+        font-size: 12px;
+        
+    }
+    .ourMissionText  p {
+        font-size: 11px;
+        
+    }
+}
+
+@media (max-width:768px) {
+    #about .aboutText {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #about #aboutTab button {
+        padding: 7px 3px;
+    }
+    #about #aboutTab button {
+        font-size: 16px;
+        
+    }
+    .counterCnt {
+        width: 50%;
+        margin-top: 20px;
+    }
+   
+}
